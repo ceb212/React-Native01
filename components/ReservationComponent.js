@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, View, ScrollView, StyleSheet, 
+import { Text, View, ScrollView, StyleSheet,
     Picker, Switch, Button, Modal } from 'react-native';
 import DatePicker from 'react-native-datepicker';
 
@@ -35,15 +35,6 @@ class Reservation extends Component {
             hikeIn: false,
             date: '',
             showModal: false
-        });
-    }
-
-    handleReservation() {
-        console.log(JSON.stringify(this.state));
-        this.setState({
-            campers: 1,
-            hikeIn: false,
-            date: ''
         });
     }
 
